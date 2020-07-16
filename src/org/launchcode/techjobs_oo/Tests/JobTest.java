@@ -71,7 +71,8 @@ public class JobTest {
         job3.getLocation().setValue("");
         job3.getPositionType().setValue("");
         job3.getCoreCompetency().setValue("");
-        String emptyFields = String.format("\nID: %d\n" +
+        String emptyFields = String.format(
+                "\nID: %d\n" +
                 "Name: %s\n" +
                 "Employer: Data not available\n" +
                 "Location: Data not available\n" +
